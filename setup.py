@@ -8,9 +8,7 @@ setup_kwargs = {
     'description': (
         'Generate prompts',
     ),
-    'package_dir': {
-        'onebuttonprompt': '__init__.py',
-    },
+    'py_modules': ['smux'],
     'include_package_data': True,
     'platforms': 'any',
 }
