@@ -8,7 +8,7 @@ setup_kwargs = {
     'description': (
         'Generate prompts',
     ),
-    'packages': find_packages(),
+    'packages': ['src'],
     'include_package_data': True,
     'platforms': 'any',
 }
