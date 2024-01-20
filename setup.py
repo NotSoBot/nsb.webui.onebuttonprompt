@@ -8,8 +8,7 @@ setup_kwargs = {
     'description': (
         'Generate prompts',
     ),
-    'py_modules': ['onebuttonprompt'],
-    'packages': ['__init__.py'],
+    'packages': find_packages(),
     'include_package_data': True,
     'platforms': 'any',
 }
